@@ -1,0 +1,294 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: "Tilt Neon", sans-serif;
+}
+
+/* Navbar Start */
+ .navbar {
+    background-color:white;
+    padding: 0px 10% 0px;
+    transition: all .50s ease;
+ }
+
+ .navbar-brand {
+  font-size: 32px;
+  font-weight: 600;
+  color: rgb(255, 162, 0);
+ }
+
+ .nav-item .nav-link {
+  font-size: 18px;
+  font-weight: 550;
+  color: black;
+ }
+ 
+ .nav-item .nav-link:hover{
+  color:  rgb(255, 162, 0) ;
+ }
+/* Navbar End */
+
+
+
+
+
+/* Home Selection Start*/
+section {
+  transition: all .50s ease;
+}
+
+.home {
+  padding: 90px 11% 90px;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 0;
+}
+
+.home .img {
+  flex: 1 1 300px;
+}
+
+.home .img img {
+  width: 100%;
+}
+
+.home-content {
+  flex: 1 1 400px;
+}
+
+.home .home-content p{
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.home .home-content h1 {
+  color: rgb(255, 162, 0);
+  font-size: 42px;
+  font-weight: 700;
+}
+.home .home-content button {
+  position: relative;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 7px;
+  border: 1px solid rgb(255, 162, 0);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: transparent;
+  color: rgb(255, 162, 0);
+  overflow: hidden;
+  box-shadow: 0  0  0  0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all .2s ease-in;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+.home .home-content button:hover {
+  color: #fff;
+  background-color: rgb(255, 162, 0);
+  box-shadow: 0 0 30px 5px rgb(255, 162, 0);
+ -webkit-transition: all 0.2s ease-out;
+ -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.home .home-content:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+   animation: sh02 0.5s 0s linear;
+}
+.home button::before {
+  content: ' ';
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: blue;
+  box-shadow: 0  0  50px 30px #fff;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+@keyframes sh02 {
+  from {
+     opacity: 0;
+     left: 0%;
+  }
+  50% {
+     opacity: 1;
+  }
+  to {
+     opacity: 0;
+     left: 100%;
+  }
+}
+button:active {
+  box-shadow: 0  0  0  0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+
+@keyframes animate {
+  40%, 60%{
+     left: 100%;
+  }
+  100% {
+     left: 0%;
+  }
+}
+
+@media(max-width:990px){
+  .home .text {
+     font-size: 30px;
+  }
+  .home p {
+     font-size: 20px;
+  }
+}
+
+@media(max-width:903px){
+  .home {
+     height: auto;
+  }
+}
+/* Home Selection End*/
+
+
+
+
+/* Card Section */
+#tpc{
+  box-shadow: 0 0 5px black;
+  transition: 0,5s ease;
+  cursor: pointer;
+}
+#tpc:hover {
+  transform: translateY(-10px);
+}
+.container h1{
+  color: rgb(255, 162, 0);
+  text-shadow: 1px 1px 1px black;
+  border-bottom: 2px solid #ffc800;
+}
+.container .card-body {
+   text-align: center;
+}
+.container .card-body #btn2 button{
+    padding: 4px 15px;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+}
+
+.container .card-body #btn2 button:hover {
+    background-color: rgb(255, 162, 0)
+}
+/* Card Section */
+
+
+
+
+/*About Section Start*/
+.about {
+  padding: 100px 11% 100px;
+  background-color: #f5fcff;
+  transition: all .50s ease;
+}
+.about .card{
+  border-radius: 10px;
+  cursor: pointer;
+}
+.about .card img {
+  border-radius: 10px;
+}
+.about-btn {
+  width: 120px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(255, 162, 0);
+  color: white;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.about-btn:hover {
+  width: 135px;
+}
+
+/*About Section End*/
+
+
+
+
+/*Review Section Start*/
+
+.reviews {
+  padding: 100px 11% 100px;
+  background-color: #f5fcff;
+  transition: all .50s ease;
+}
+.reviews h3 {
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.reviews .card {
+  padding: 10px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.reviews .card:hover {
+  background-color: black;
+  color: white;
+}
+.reviews img{
+  width: 50px;
+}
+.star {
+  margin-top: 20px;
+}
+.star i{
+  color: orange;
+}
+/*Review Section End*/
+
+/* footer */
+#footer{
+  width: 100%;
+  background-color: black;
+  margin-top: 100px;
+ }
+ #footer h1{
+  color: white;
+  padding-top: 30px;
+ }
+ #footer p{
+  color: white;
+ }
+ .icons i{
+  color: rgba(238,224,208);
+  font-size: 30px;
+  cursor: pointer;
+ }
+ .copyright{
+  color: white;
+  margin-top: 20px;
+ }
+ .credite{
+  color: white;
+ }
+/* footer */
