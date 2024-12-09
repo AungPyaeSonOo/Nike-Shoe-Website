@@ -2,7 +2,7 @@
 
 - This repository contains the source code for a Nike brand shoes website, created using HTML and CSS. The website is designed to showcase Nike's iconic footwear with a clean and modern user interface.
 
-# 🖼️ Overview
+## 🖼️ Overview
 
 The Nike Shoe Website is a static site focused on:
 
@@ -10,28 +10,27 @@ The Nike Shoe Website is a static site focused on:
 - Providing a visually appealing layout for showcasing shoe collections.
 - Offering a smooth and responsive user experience.
 
-# 🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 - HTML: Used for structuring the website content.
 - CSS: Used for styling and enhancing the visual design of the website.
 
-# 📁 Project Structure
+## 📁 Project Structure
 
-plaintext
-Copy code
-Nike-shoe-website/  
-├── index.html          # Main webpage  
-├── css/  
-│   └── style.css       # Styling file for the website  
-├── assets/  
+Nike-shoe-website/
+
+├── index.html       # Main webpage  
+├── style.css       # Styling file for the website  
+├── img/  
 │   ├── images/         # Folder for all shoe and brand images  
-└── README.md           # Documentation file  
-🚀 How to Run This Project
+└── README.md           # Documentation file
+
+## 🚀 How to Run This Project
 
 Clone the repository to your local system:
 bash
 Copy code
-git clone https://github.com/yourusername/Nike-shoe-website.git
+git clone https://github.com/AungPyaeSonOo/Nike-shoe-website.git
 
 Navigate to the project folder:
 bash
