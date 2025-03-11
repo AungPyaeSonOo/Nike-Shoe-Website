@@ -2,10 +2,14 @@
 
 - This project is simple and beautiful design website
 
+---
+
 ## 🛠 Technologies Used
 
 - **HTML** - Structure of the web page
 - **CSS** - Styling for layout and design
+
+---
 
 ## 📸 Preview
 
