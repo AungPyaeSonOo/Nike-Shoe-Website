@@ -1,68 +1,82 @@
-- Nike Shoe Website
+# 📌 Nike-Shoe-Website
 
-- This repository contains the source code for a Nike brand shoes website, created using HTML and CSS. The website is designed to showcase Nike's iconic footwear with a clean and modern user interface.
+This project is simple and beautiful design website
 
-## 🖼️ Overview
+## 📸 Preview
 
-The Nike Shoe Website is a static site focused on:
+![Nike-Shoe-Webite](Nike-Shoe-Website.jpg)
 
-- Highlighting Nike's brand identity with a stylish design.
-- Providing a visually appealing layout for showcasing shoe collections.
-- Offering a smooth and responsive user experience.
+---
 
-## 🛠️ Technologies Used
+## 📂 Project Structure
 
-- HTML: Used for structuring the website content.
-- CSS: Used for styling and enhancing the visual design of the website.
+|-- img
+│   ├── Air Joden.png
+|   ├── Nike Air Force 1.jpeg
+|   ├── Nike Air Max 1.jpeg
+|   ├── Nike Air Max 90.jpeg
+|   ├── Nike Blazer.jpeg
+│   ├── Nike Cortez.jpeg
+│   ├── Nike Dunk.jpeg
+|   ├── Nike SB Dunk.jpeg
+|   ├── Nike company.jpeg
+|   ├── Nike3.jpeg
+|   ├── avator.jpeg
+│   ├── avator2.jpeg
+|   ├── avator3.jpeg
+│-- shoe.css
+│-- shoe.html
 
-## 📁 Project Structure
+---
 
-Nike-shoe-website/
+## 🚀 Installation Guide
 
-├── index.html       # Main webpage  
-├── style.css       # Styling file for the website  
-├── img/  
-│   ├── images/         # Folder for all shoe and brand images  
-└── README.md           # Documentation file
-
-## 🚀 How to Run This Project
-
-Clone the repository to your local system:
+1. Clone the repository:
+   
 bash
-Copy code
-git clone https://github.com/AungPyaeSonOo/Nike-shoe-website.git
+   git clone https://github.com/AungPyaeSonOo/Nike-Shoe-Website.git
 
-Navigate to the project folder:
+2. Navigate into the project folder:
+   
 bash
-Copy code
-cd Nike-shoe-website  
+   cd Nike-Shoe-Website
 
-Open the index.html file in any web browser to view the website.
+---
 
-# 🌟 Features
+## 🍴 How to Fork This Project
 
-- Modern UI: Stylish and minimalist design inspired by Nike's branding.
-- Responsive Design: Works seamlessly across devices (desktops, tablets, and mobile phones).
-- Hover Effects: Interactive CSS effects for buttons and images.
+1. Click the **Fork** button on the top right of this repository.
+2. Clone the forked repository:
+   
+bash
+   git clone https://github.com/AungPyaeSonOo/Nike-Shoe-Website.git
 
-# 📸 Preview
+3. Create a new branch for your changes:
+   
+bash
+   git checkout -b your-new-feature
 
-(Include screenshots or GIFs of the website to provide a visual preview)
+4. Make your changes and commit them:
+   
+bash
+   git commit -m "Added your new feature"
 
-# 🤝 Contribution
+5. Push the changes to your fork:
+   
+bash
+   git push origin your-new-feature
 
-If you'd like to contribute:
+6. Create a **Pull Request**!
 
-- Fork the repository.
-- Create a new branch:
-- bash
+---
 
-Copy code
-git checkout -b feature-name  
-Commit your changes and push them to the branch.
-Submit a pull request for review.
+## 📬 Contact
 
-# 📬 Contact
-For any questions or suggestions, feel free to contact me 
+If you have any questions or suggestions, feel free to reach out:
+- **Email:** aungpyaesonoo002@gmail.com
+- **GitHub:** [AungPyaeSonOo](https://github.com/AungPyaeSonOo)
+- **LinkedIn:** [AungPyaeSonOo](https://www.linkedin.com/in/aung-pyae-son-oo-635761354)
 
-via GitHub or email at aungpyaesonoo002@gmail.com.
+---
+
+⭐ If you like this project, give it a **star** on GitHub!
