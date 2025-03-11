@@ -10,6 +10,8 @@ This project is simple and beautiful design website
 
 ## 📂 Project Structure
 
+```
+
 |-- img
 │   ├── Air Joden.png
 |   ├── Nike Air Force 1.jpeg
@@ -26,6 +28,8 @@ This project is simple and beautiful design website
 |   ├── avator3.jpeg
 │-- shoe.css
 │-- shoe.html
+
+```
 
 ---
 
