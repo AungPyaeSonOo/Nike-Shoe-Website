@@ -1,10 +1,11 @@
 # 📌 Nike-Shoe-Website
 
-This project is simple and beautiful design website
+- This project is simple and beautiful design website
 
-🛠 Technologies Used
-- ** HTML ** - Structure of the web page
-- ** CSS ** - Styling for layout and design
+##🛠 Technologies Used
+
+- **HTML** - Structure of the web page
+- **CSS** - Styling for layout and design
 
 ## 📸 Preview
 
