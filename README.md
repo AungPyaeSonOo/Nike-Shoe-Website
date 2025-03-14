@@ -44,40 +44,38 @@
 
 ## 🚀 Installation Guide
 
-1. Clone the repository:
-   
-bash
+1. Clone the repository: 
+```bash
    git clone https://github.com/AungPyaeSonOo/Nike-Shoe-Website.git
-
-2. Navigate into the project folder:
-   
-bash
+```
+2. Navigate into the project folder:   
+```bash
    cd Nike-Shoe-Website
-
+```
 ---
 
 ## 🍴 How to Fork This Project
 
 1. Click the **Fork** button on the top right of this repository.
 2. Clone the forked repository:
-   
-bash
+```bash
    git clone https://github.com/AungPyaeSonOo/Nike-Shoe-Website.git
+```
 
 3. Create a new branch for your changes:
-   
-bash
+```bash
    git checkout -b your-new-feature
+```
 
 4. Make your changes and commit them:
-   
-bash
+```bash
    git commit -m "Added your new feature"
+```
 
 5. Push the changes to your fork:
-   
-bash
+```bash
    git push origin your-new-feature
+```
 
 6. Create a **Pull Request**!
 
